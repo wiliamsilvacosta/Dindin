@@ -1,0 +1,196 @@
+main .container {
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+.hero {
+    background: url('../images/ilustra-banner.png') 100% 50% no-repeat;
+    padding: 90px 680px 90px 0;
+}
+
+.hero h1 {
+    color: #FF4081;
+    font-size: 60px;
+    line-height: 69px;
+    font-weight: 700;
+    width: 360px;
+    margin-bottom: 38px;
+}
+
+.hero p {
+    color: #555555;
+    font-size: 27px;
+    line-height: 31px;
+    font-weight: 400;
+    width: 360px;
+    margin-bottom: 38px;
+}
+
+.hero a {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    text-decoration: none;
+    padding: 12px 26px;
+    border-radius: 62px;
+    border: 2px solid #FF4081;
+}
+
+
+.lista-cursos {
+    display: flex;
+    justify-content: space-between;
+    background: #F6F6F6;
+    padding: 117px 0;
+}
+
+.lista-cursos .curso {
+    width: 344px;
+    text-align: center;
+}
+
+.lista-cursos .curso img {
+    max-height: 270px;
+    margin-bottom: 45px;
+}
+
+.lista-cursos .curso h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FF4081;
+    margin-bottom: 23px;
+}
+
+.lista-cursos .curso p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.lista-cursos .curso a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+    background: #FF4081;
+    border: none;
+    border-radius: 62px;
+    padding: 12px 52px;
+    text-decoration: none;
+}
+
+.lista-depoimentos {
+    padding: 78px 0;
+}
+
+.lista-depoimentos h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 78px;
+}
+
+.lista-depoimentos > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 100px;
+}
+
+.lista-depoimentos .depoimento {
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.lista-depoimentos .depoimento img {
+    margin-right: 28px;
+}
+
+.lista-depoimentos .depoimento p::before,
+.lista-depoimentos .depoimento p::after {
+    content: '"';
+}
+
+.lista-depoimentos .depoimento p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 0 7px;
+    width: 410px;
+}
+
+.lista-depoimentos .depoimento small {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    color: #000000;
+}
+
+.lista-posts {
+    background: #E5E5E5;
+    display: flex;
+    flex-flow: column;
+}
+
+.lista-posts h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 91px 0 73px;
+}
+
+.lista-posts .posts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 135px;
+}
+
+.lista-posts .post img {
+    max-height: 193px;
+    margin: 0 0 11px;
+}
+
+.lista-posts .post h3 {
+    margin: 0;
+}
+
+.lista-posts .post h3 a {
+    text-decoration: none;
+    color: #009688;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.lista-posts .post p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 319px;
+}
+
+.lista-posts .link-blog {
+    text-align: center;
+    margin: 0 0 73px;
+}
+
+.lista-posts .link-blog a {
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 41px;
+    text-decoration: none;
+}
